@@ -19,5 +19,7 @@ In the above image, the half adder is adding two binary zeros together. This exp
 ![Half adder circuit with switch B on](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/halfaddercircuit0%2B1.png)
 
 This combination illuminates the S LED because 0 + 1 equals 1. Both of these examples make sense, but something interesting happens when we flip both inputs on.
+
 ![Half adder circuit with both switches active](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/halfaddercircuit1%2B1.png)
+
 Since we can't represent a binary 2 with a single LED, we have to turn the Sum LED back off again and *carry* the extra to the next place of addition. This is similar to how you can't add any integer to 9 without making it at least two digits long (i.e. 9 + 1 = 10, 9 + 6 = 15). The only difference here is that we only have *two* states to count with, hence *binary*; while in normal math we have *ten* states to count with (0 through 9), hence *decimal*.
