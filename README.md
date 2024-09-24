@@ -1,6 +1,8 @@
 # Half Adder Circuit
 
-A half adder is a circuit meant to compute the first place of binary addition.
+The purpose of this repository is to show my understanding of binary addition and how it applies in theory and in practice. To do this I will explain one of the simplest ways to add two binary numbers together: the half adder. A half adder is a circuit meant to compute the first digit of binary addition. This circuit forms the foundation of more complicated circuits like the full and 4-bit adder.
+
+As a short recap: binary numbers are comprised of only 0's and 1's. This is different than decimal numbers, which are comprised of any digits 0-9. The limited number of digits means that binary numbers grow larger faster than decimal. So 1, 2, 3, 4, 5 in decimal is 1, 10, 11, 100, 101 in binary.
 
 ![Diagram of binary addition compared to a half adder](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/halfadderdiagram.png)
 
