@@ -27,3 +27,9 @@ This combination illuminates the S LED because 0 + 1 equals 1. Both of these exa
 ![Half adder circuit with both switches active](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/halfaddercircuit1%2B1.png)
 
 Since we can't represent a binary 2 with a single LED, we have to turn the Sum LED back off again and *carry* the extra to the next place of addition. This is similar to how you can't add any integer to 9 without making it at least two digits long (i.e. 9 + 1 = 10, 9 + 6 = 15). The only difference here is that we only have *two* states to count with, hence *binary*; while in normal math we have *ten* states to count with (0 through 9), hence *decimal*.
+
+A half adder is just one small piece of the puzzle, however. If you want to add more than 1 bit numbers, you'll have to create a full adder, which is used for every binary digit you want to calculate after the first one. A full adder is simply two half adders tied together with an OR gate. This allows the circuit to take three inputs instead of two. The extra input is used for C<sub>in</sub>, aka the carry value from the previous adder.
+
+![Full adder in context](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/halfaddertruthtable.png)
+![Diagram of a full adder](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/fulladder.png)
+
