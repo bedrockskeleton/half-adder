@@ -6,17 +6,25 @@ As a short recap: binary numbers are comprised of only 0's and 1's. This is diff
 
 ![Diagram of binary addition compared to a half adder](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/halfadderdiagram.png)
 
+(Justice, 2020, p. 76)
+
 In the diagram, the half adder (HA) takes two inputs, A and B, as the two binary digits to add. The **S**um is outputted through **S**, and **C**<sub>out</sub> is the digit to **C**arry to the next place value. The half adder itself is made with two logic gates: a XOR and an AND gate. The XOR gate handles the sum, while the AND gate determines the carry value.
 
 ![Diagram of a half adder using logic gates](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/halfaddergates.png)
+
+(Justice, 2020, p. 77)
 
 Since a half adder is made with logic gates and has a limited number of inputs, we can visualize every possible output it could have with the truth table shown below. With this, we can confirm a number of solutions. For example, 0 + 0 will be equal to 0, and 1 + 1 will return a Sum of 0 with a Carry of 1.
 
 ![Truth table for a half adder](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/halfaddertruthtable.png)
 
+(Justice, 2020, p. 77)
+
 With all of this information in mind, we can now recreate a half adder using integrated circuits. The integrated circuits I'll be using are simply multiple logic gates packed onto one chip. I'll use the circuit diagram below to construct a simple half adder circuit.
 
 ![Circuit diagram of a half adder](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/halfaddercircuitdiagram.png)
+
+(Justice, 2020, p. 90)
 
 ![Constructed half adder circuit](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/halfaddercircuit0%2B0.png)
 
@@ -34,6 +42,7 @@ A half adder is just one small piece of the puzzle, however. If you want to add 
 
 ![Full adder in context](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/fulladderexample.png)
 ![Diagram of a full adder](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/fulladder.png)
+(Justice, 2020, p. 78-79)
 
 Half and full adders chained together allow computers to calculate not only binary numbers, but decimal numbers by extension. A four-bit adder, for example, can handle numbers from 0-15. 0000 in binary represents 0 in decimal, and 1111 in binary represents 15. The cap increases exponentially with every new full adder. This means that an 8-bit adder would be able to handle numbers from 0-255 (0 - 11111111 in binary)! This technology is how the first solid-state transistor calculator, the IBM 608, was created in 1955.
 
