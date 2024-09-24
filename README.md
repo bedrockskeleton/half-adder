@@ -33,3 +33,14 @@ A half adder is just one small piece of the puzzle, however. If you want to add 
 ![Full adder in context](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/fulladderexample.png)
 ![Diagram of a full adder](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/fulladder.png)
 
+Half and full adders chained together allow computers to calculate not only binary numbers, but decimal numbers by extension. A four-bit adder, for example, can handle numbers from 0-15. 0000 in binary represents 0 in decimal, and 1111 in binary represents 15. The cap increased exponentially with every new full adder. This means that an 8-bit adder would be able to handle numbers from 0-255 (0 - 11111111 in binary)! This technology is how the first solid-state transistor calculator, the IBM 608, was created in 1955.
+
+![The IBM 608 calculator](https://www.columbia.edu/cu/computinghistory/608.jpg)
+
+While this may look a set of kitchen appliances. This calculator is capable of dealing with up to 18-digit decimal numbers in fractions of a second. All thanks to boards that don't function much differently than the one we created.
+
+![A board from the IBM 608 calculator](https://archive.computerhistory.org/resources/access/physical-object/2012/02/102746916.01.01.lg.JPG)
+
+## References
+Cruz, F. (2001, January). The IBM 608 Calculator. Columbia University. Retrieved September 23, 2024, from https://www.columbia.edu/cu/computinghistory/608.html
+Justice, M. (2020). How Computers Really Work: A Hands-On Guide to the Inner Workings of the Machine. No Starch Press.
