@@ -6,7 +6,7 @@ As a short recap: binary numbers are comprised of only 0's and 1's. This is diff
 
 ![Diagram of binary addition compared to a half adder](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/halfadderdiagram.png)
 
-In the diagram, the half adder (HA) takes two inputs, A and B, as the two binary numbers to add. The **S**um is outputted through **S**, and **C**<sub>out</sub> is the digit to **C**arry. The half adder itself is made with two logic gates: a XOR and an AND gate. The XOR gate handles the sum, while the AND gate determines the carry value.
+In the diagram, the half adder (HA) takes two inputs, A and B, as the two binary digits to add. The **S**um is outputted through **S**, and **C**<sub>out</sub> is the digit to **C**arry. The half adder itself is made with two logic gates: a XOR and an AND gate. The XOR gate handles the sum, while the AND gate determines the carry value.
 
 ![Diagram of a half adder using logic gates](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/halfaddergates.png)
 
