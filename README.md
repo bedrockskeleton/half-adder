@@ -30,6 +30,6 @@ Since we can't represent a binary 2 with a single LED, we have to turn the Sum L
 
 A half adder is just one small piece of the puzzle, however. If you want to add more than 1 bit numbers, you'll have to create a full adder, which is used for every binary digit you want to calculate after the first one. A full adder is simply two half adders tied together with an OR gate. This allows the circuit to take three inputs instead of two. The extra input is used for C<sub>in</sub>, aka the carry value from the previous adder.
 
-![Full adder in context](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/halfaddertruthtable.png)
+![Full adder in context](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/fulladderexample.png)
 ![Diagram of a full adder](https://raw.githubusercontent.com/bedrockskeleton/half-adder/refs/heads/main/images/fulladder.png)
 
