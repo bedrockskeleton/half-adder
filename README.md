@@ -48,6 +48,8 @@ Half and full adders chained together allow computers to calculate not only bina
 
 ![The IBM 608 calculator](https://www.columbia.edu/cu/computinghistory/608.jpg)
 
+(Cruz, 2001)
+
 While this may look a set of kitchen appliances. This calculator is capable of dealing with up to 18-digit decimal numbers in fractions of a second. All thanks to boards that don't function much differently than the one we created. Of course calculators have become much smaller since then, but early calculators go to show how far we've come in computing power.
 
 ![A board from the IBM 608 calculator](https://archive.computerhistory.org/resources/access/physical-object/2012/02/102746916.01.01.lg.JPG)
